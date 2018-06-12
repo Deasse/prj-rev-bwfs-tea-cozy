@@ -1,0 +1,234 @@
+/* GLOBAL*/
+
+hmtl, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background: #000;
+    opacity: .9;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+#header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    background: black;
+}
+
+header img {
+    padding: 0;
+    margin-left: 10px;
+    height: 50px;
+}
+
+/* NAV */
+
+header nav ul li {
+    display: inline-flex;
+    padding: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    color: seashell;
+}
+
+header nav ul {
+    margin-right: 10px;
+}
+
+/* HOVER EFFECT NAV */
+
+.menutxtsshell {
+    text-decoration: none;
+    color: seashell;
+}
+
+
+
+
+
+#menu {
+    display: none;
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 642px) {
+    #menu {
+        display: inline;
+        position: relative;
+    }
+
+    .options {
+        display: none;
+        position: relative;
+    }
+}
+/* CENTER HEADER */
+
+.center {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 1200px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.center-text {
+    width: 100%;
+    background: black;
+    align-items: center;
+
+}
+
+/* TEA PICTURES PART */
+
+.tea-month {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-month header {
+    padding: 0;
+    font-family: Verdana serif;
+}
+
+h1,
+h3 {
+  font-family: Verdana;
+}
+
+.products {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5 {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+}
+
+.product1 img,
+.product2 img,
+.product3 img,
+.product4 img,
+.product5 img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid seashell;
+    margin: 0;
+}
+
+.product1 p,
+.product2 p,
+.product3 p,
+.product4 p,
+.product5 p {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* INFORMATION/LOCATION PART */
+
+.information {
+    min-height: 500px;
+    opacity: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg") no-repeat center;
+
+}
+
+.locations {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    padding: 10px;
+    border: 1px solid white;
+    background: black;
+    opacity: 1;
+    color: seashell;
+    flex-basis: 300px;
+    margin: 0 20px;
+}
+
+.location h2 {
+    font-weight: 800;
+}
+
+.contact {
+    height: 200px;
+}
+
+.contact h2 a{
+    font-weight: 700;
+    font-family: Verdana serif;
+    padding: 0 10px;
+    display: inline-block;
+    margin: 0;
+    margin-top: 5px;
+    color: seashell;
+}
+
+.contact h2 a:hover {
+    border-color: seashell;
+    padding: 0 3px;
+    color: seashell;
+    border-color: seashell;
+
+}
+
+.contact h5 a{
+    color: seashell;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    background: black;
+    bottom: 0;
+    text-align: left;
+    height: 40px;
+}
+
+footer h4 {
+    color: seashell;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding-left: 30px;
+}
